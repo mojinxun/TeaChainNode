@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3006;
 
 // Middleware
 app.use(cors());
@@ -12,10 +12,10 @@ app.use(bodyParser.json());
 
 // Homepage Route
 app.get('/', (req, res) => {
-  res.send('Welcome to the ChainTeaNode Blockchain Interface!');
+  res.send('Welcome to the TeaChainNode Blockchain Interface!');
 });
 
 // Starting the Server
 app.listen(port, () => {
-  console.log(`ChainTeaNode is listening at http://localhost:${port}.`);
+  console.log(`TeaChainNode is listening at http://localhost:${port}.`);
 });

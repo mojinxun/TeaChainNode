@@ -1,6 +1,6 @@
-# ChainTeaNode
+# 
 
-Welcome to ChainTeaNode, a comprehensive Node.js library designed to facilitate seamless interaction with the Ethereum blockchain. Whether you're developing decentralized applications (dApps), running automated scripts, or simply exploring the vast landscape of blockchain technology, ChainTeaNode provides you with the tools you need to integrate blockchain functionalities with ease.
+Welcome to TeaChainNode, a comprehensive Node.js library designed to facilitate seamless interaction with the Ethereum blockchain. Whether you're developing decentralized applications (dApps), running automated scripts, or simply exploring the vast landscape of blockchain technology, TeaChainNode provides you with the tools you need to integrate blockchain functionalities with ease.
 
 ## Features
 
@@ -13,23 +13,23 @@ Welcome to ChainTeaNode, a comprehensive Node.js library designed to facilitate 
 
 ### Prerequisites
 
-Ensure you have Node.js (version 12 or later) installed on your machine. ChainTeaNode is built with compatibility in mind, supporting both traditional Node.js environments and modern async/await patterns.
+Ensure you have Node.js (version 12 or later) installed on your machine. TeaChainNode is built with compatibility in mind, supporting both traditional Node.js environments and modern async/await patterns.
 
 ### Installation
 
-To add ChainTeaNode to your project, run the following command in your project directory:
+To add TeaChainNode to your project, run the following command in your project directory:
 
 ```bash
-npm install ChainTeaNode
+npm install TeaChainNode
 
-This command fetches the latest version of ChainTeaNode and adds it to your project's dependencies.
+This command fetches the latest version of TeaChainNode and adds it to your project's dependencies.
 ```
 
 ## Quick Setup
 
-Once installed, you can start using ChainTeaNode by requiring it in your Node.js application:
+Once installed, you can start using TeaChainNode by requiring it in your Node.js application:
 
-const { getBalance, sendTransaction } = require('ChainTeaNode');
+const { getBalance, sendTransaction } = require('TeaChainNode');
 
 // Example usage
 async function main() {
@@ -42,7 +42,7 @@ main();
 
 ## Configuration
 
-To run the ChainTeaNode project successfully on your local environment, you need to set up some environment variables. We use a `.env` file for this purpose, which allows you to define your private and sensitive information without exposing it in your source code.
+To run the TeaChainNode project successfully on your local environment, you need to set up some environment variables. We use a `.env` file for this purpose, which allows you to define your private and sensitive information without exposing it in your source code.
 
 ### Setting Up the .env File
 
@@ -87,4 +87,4 @@ Never commit your .env file to your version control system. This file contains s
 
 ## Contributing
 
-We welcome contributions from the community! If you're interested in improving ChainTeaNode or adding new features, please submit a pull request or open an issue to discuss your ideas.
+We welcome contributions from the community! If you're interested in improving TeaChainNode or adding new features, please submit a pull request or open an issue to discuss your ideas.
